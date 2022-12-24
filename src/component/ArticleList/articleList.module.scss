@@ -1,0 +1,152 @@
+.article-list {
+   text-decoration: none;
+   display: flex;
+   flex-direction: column;
+   max-width: 938px;
+   height: 140px;
+   background: #FFFFFF;
+   border-radius: 5px;
+   margin: 13px auto;
+   box-shadow: 0px 22px 106px rgba(0, 0, 0, 0.07), 0px 9.19107px 44.2843px rgba(0, 0, 0, 0.0503198), 0px 4.91399px 23.6765px rgba(0, 0, 0, 0.0417275), 0px 2.75474px 13.2728px rgba(0, 0, 0, 0.035), 0px 1.46302px 7.04911px rgba(0, 0, 0, 0.0282725), 0px 0.608796px 2.93329px rgba(0, 0, 0, 0.0196802);
+   & .content-list_header {
+      display: flex;
+      justify-content:space-between;
+      margin: 15px;
+      max-height: 60px;
+      & .article-list_left_header {
+         overflow-wrap: break-word;
+         margin-right: auto;
+       & span {
+         margin-top: 4px;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 12px;
+         line-height: 22px;
+         color: rgba(0, 0, 0, 0.75);
+      }
+      & .article-title_container {
+         display: flex;
+      }
+      & .article-title {
+         text-decoration: none;
+         margin: 0 13px 0 4px;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 20px;
+         line-height: 28px;
+         display: flex;
+         align-items: center;
+         color: #1890FF;
+      }
+      & .laik {
+         margin-right: 5px;
+         margin-top: 7px;
+         width: 15px;
+         height: 14px;
+         background-image: url(../../../public/img/Vector.svg);
+         background-position: center;
+         border: none;
+         background-color: #FFFFFF;
+      }
+      & .notLaik {
+         margin-right: 5px;
+         margin-top: 7px;
+         width: 15px;
+         height: 14px;
+         background-image: url(../../../public/img/laik.svg);
+         background-position: center;
+         border: none;
+         background-color: #FFFFFF;
+      }
+      & .content-list_teg {
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+      & .teg_list {
+         max-width: 50px;
+         max-height: 15px;
+         margin: 4px;
+         padding: 2px 5px;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 12px;
+         line-height: 15px;
+         color: rgba(0, 0, 0, 0.5);  
+         border: 1px solid rgba(0, 0, 0, 0.5);
+         border-radius: 2px;
+         overflow: hidden;
+      }
+      }
+      }
+      & .article-list_right_header {
+         display: flex;
+         margin-left: auto;
+         & .author-name {
+            & h5 {
+               margin: 0;
+               font-family: 'Inter';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 18px;
+               line-height: 28px;
+               color: rgba(0, 0, 0, 0.85);
+            }
+            
+         }
+         & .publication-date {
+            margin: 0;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            color: rgba(0, 0, 0, 0.5);
+         }
+         & .authors_profile_picture-container {
+            & img {
+               margin-left: 12px;
+               width: 46px;
+               height: 46px;
+               border-radius: 50%;
+               overflow: hidden;
+            }
+         }
+         
+      }
+   }
+   & .content-list_main {
+      overflow: hidden;
+      width: auto;
+      height: 45px;
+      margin-right: 240px;
+      margin-left: 15px;
+       p {
+         margin: 0;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 12px;
+         line-height: 22px;
+         color: rgba(0, 0, 0, 0.75);
+         
+      }
+   }
+}
+.pagination-container {
+   width: 480px;
+   margin: auto;
+   margin-bottom: 25px;
+   
+}
+:global .ant-pagination-item-active {
+   background-color: #1890ff !important;
+   border-radius: 4px;
+   a {
+     color: #fff !important;
+   }
+ }
