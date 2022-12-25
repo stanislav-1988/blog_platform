@@ -149,7 +149,7 @@ function ArticleList({ history, olState, loadingArticle, changeFavoritedOfArticl
     <div>
       <div>{item}</div>
       <div className={classes['pagination-container']}>
-        <Pagination onChange={pagination} showSizeChanger={false} defaultCurrent={1} total={1750} />
+        <Pagination onChange={pagination} showSizeChanger={false} defaultCurrent={page} total={1750} />
       </div>
     </div>
   );
