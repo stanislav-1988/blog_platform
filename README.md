@@ -1,1 +1,1 @@
-[ссылка на проект](https://blog-platform-beta.vercel.app/)
+[ссылка на проект](https://blog-platform-beta-sable.vercel.app/)
